@@ -1,6 +1,6 @@
 
 
-//kilometer to meter convert program 
+//1.kilometer to meter convert program 
 function kilometerToMeter(kilometer){
 
     if(kilometer<0){
@@ -11,7 +11,7 @@ function kilometerToMeter(kilometer){
     }
   }
   
-  //budget calculator program 
+  // 2.budget calculator program 
   function budgetCalculator(watch,mobile,laptop){
     var watchPrice=50;
     mobilePrice=100;
@@ -25,7 +25,7 @@ function kilometerToMeter(kilometer){
     }
    }
 
-//hotelCost program 
+// 3.hotelCost program 
    function hotelCost(days){
     var hotelRant=0; // initializes value 0 for sum
      //condition checking 
@@ -48,7 +48,7 @@ function kilometerToMeter(kilometer){
     return hotelRant;
     }
 
-    //megaFriend program
+ // 4.megaFriend program
     function megaFriend(friendsName){
       var lengthOfElement = 0;
       var longestName;
