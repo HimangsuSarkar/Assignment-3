@@ -1,4 +1,4 @@
-
+// https://github.com/HimangsuSarkar/Assignment-3
 
 //1.kilometer to meter convert program 
 function kilometerToMeter(kilometer){
@@ -52,18 +52,12 @@ function kilometerToMeter(kilometer){
     function megaFriend(friendsName){
       var lengthOfElement = 0;
       var longestName;
-      
-      if(lengthOfElement===0){
-         return "you must write array element";//checking if user put empty array
-      }
-      else{
         for (var i = 0; i < friendsName.length; i++) {
           if (friendsName[i].length > lengthOfElement) {
              lengthOfElement = friendsName[i].length;
             longestName= friendsName[i];
           }
         }
-      }
       return longestName;
     }
     
