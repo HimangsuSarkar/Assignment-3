@@ -44,6 +44,23 @@ function kilometerToMeter(kilometer){
     }
     return hotelRant;
     }
+
+    //megaFriend program
+    function megaFriend(friendsName){
+      var lengthOfElement = 0;
+      var longestName;
+      if(lengthOfElement===0){
+            return "you must write array element";
+      }else{
+        for (var i = 0; i < friendsName.length; i++) {
+          if (friendsName[i].length > lengthOfElement) {
+             lengthOfElement = friendsName[i].length;
+            longestName= friendsName[i];
+          }
+        }
+      }
+      return longestName;
+    }
     
    
 
